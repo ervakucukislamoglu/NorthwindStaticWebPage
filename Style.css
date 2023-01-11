@@ -1,0 +1,116 @@
+#maincontainer{
+    width: 1080px;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#header{
+width: 1080px;
+height: 120px;
+background-color: crimson;
+border-radius: 10px 10px 0 0;
+float: left;
+}
+
+#header h2{
+color:aliceblue;
+float: left;
+margin-right: auto;
+padding-left: 10px;
+padding-top: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.references{
+color:aliceblue;
+float: left;
+padding-top: 55px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content{
+float: left;
+width: 1080px;
+height: 500px;
+background-color: rgb(221, 104, 128);
+}
+
+#content h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:aliceblue;
+margin-top: 220px;
+}
+
+#campaign{
+float: left;
+width: 300px;
+height: 460px;
+background-color: rgb(104, 38, 51);
+color:aliceblue;
+border-radius: 0 0 0 10px;
+}
+
+#campaign h3{
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 230px;
+float: left;
+text-align: center;
+}
+
+#sell{
+float: left;
+width: 780px;
+height: 460px;
+background-color: rgb(233, 37, 76);
+border-radius: 0 0 10px 0;
+justify-content: space-around;
+flex-wrap: wrap;
+display:flex;
+}
+
+.products{
+width: 150px; 
+height: 150px; 
+border: 2px solid rgb(0, 0, 0);
+background-color: rgba(145, 192, 233, 0.586);
+margin-top: 100px;
+}
+
+.products p{
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+padding-top: 50px;
+}
+
+#sell p{
+color: black;
+padding-bottom: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(0, 0, 0);
+}
+
+#sell button{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+margin-left: 30px;
+}
+
+table{
+    border: solid;
+    width: 100%;   
+    background-color: rgba(145, 192, 233, 0.586);
+}
+th,td{
+border:3px solid rgb(0, 0, 0); 
+padding: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+}
+tr{
+font-size: larger;
+}
